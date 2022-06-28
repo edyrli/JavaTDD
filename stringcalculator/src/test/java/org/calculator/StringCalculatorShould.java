@@ -10,15 +10,16 @@ import java.util.stream.Stream;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class StringCalculatorShould {
-    private static Stream<Arguments> testParameters(){
+    private static Stream<Arguments> testParameters() {
         return Stream.of(
-          Arguments.of("1", 1),
-          Arguments.of("2", 2)
+                Arguments.of("1", 1),
+                Arguments.of("2", 2),
+                Arguments.of("1,2", 3)
         );
     }
 
     @Test
-    public void Return1GivenString1(){
+    public void Return1GivenString1() {
         //Arrange
         StringCalculator calculator = new StringCalculator();
 
@@ -30,7 +31,7 @@ public class StringCalculatorShould {
     }
 
     @Test
-    public void Return2GivenString2(){
+    public void Return2GivenString2() {
         //Arrange
         StringCalculator calculator = new StringCalculator();
 
@@ -43,7 +44,7 @@ public class StringCalculatorShould {
 
     @ParameterizedTest
     @MethodSource("testParameters")
-    public void SumGivenNumbers(String inputString, int outputInt){
+    public void SumGivenNumbers(String inputString, int outputInt) {
         //Arrange
         StringCalculator calculator = new StringCalculator();
 
