@@ -39,7 +39,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.41149426"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -131,7 +134,7 @@
       <updated>1656607214957</updated>
       <workItem from="1656607216621" duration="624000" />
       <workItem from="1656609889780" duration="8912000" />
-      <workItem from="1656654190244" duration="1176000" />
+      <workItem from="1656654190244" duration="3890000" />
     </task>
     <servers />
   </component>
